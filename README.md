@@ -82,7 +82,6 @@ The following example overrides the error messages in dutch and ads a new valida
         },
         error_message: 'The %field should be equal to %param0 or greater than %param1.'
     }
-    </script>
 
 ## Notes
 
