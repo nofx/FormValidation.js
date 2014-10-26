@@ -63,7 +63,7 @@ Javascript form validation made simple, unobtrusive and extensible.
 
 If you need to modify the validation functions or their respective error messages, just override FormValidation.VALIDATIONS with your own implementation, you can even make your own array of validations and
 provide it in the constructor.
-The following example overrides the error messages in dutch and ads a new validation:
+The following example overrides the error messages in dutch and adds a new validation:
 
     var validations = FormValidation.VALIDATIONS;
 
