@@ -67,23 +67,23 @@ The following example overrides the error messages in dutch and adds a new valid
 
 ```javascript
 
-    var validations = FormValidation.VALIDATIONS;
-    
-    validations.required.error_message = 'De field is verplicht';
-    validations.digits_between.error_message = 'De %field moet tussen de %param0 en %param1 tekens hebben';
-    validations.extended_alpha.error_message = 'De %field moet alfabetische tekens hebben';
-    validations.email.error_message = 'De e-mail voldoet niet aan een juiste indeling';
-    validations.file_type.error_message = 'De foto moet png, gif, jpg of png zijn';
-    
-    validations.new_validation = {
-        function: function(field, param0, param1) {
-            if (field.value == param0 || field.value > param1)
-                return true;
-            else
-                return false;
-        },
-        error_message: 'The %field should be equal to %param0 or greater than %param1.'
-    }
+var validations = FormValidation.VALIDATIONS;
+
+validations.required.error_message = 'De field is verplicht';
+validations.digits_between.error_message = 'De %field moet tussen de %param0 en %param1 tekens hebben';
+validations.extended_alpha.error_message = 'De %field moet alfabetische tekens hebben';
+validations.email.error_message = 'De e-mail voldoet niet aan een juiste indeling';
+validations.file_type.error_message = 'De foto moet png, gif, jpg of png zijn';
+
+validations.new_validation = {
+    function: function(field, param0, param1) {
+        if (field.value == param0 || field.value > param1)
+            return true;
+        else
+            return false;
+    },
+    error_message: 'The %field should be equal to %param0 or greater than %param1.'
+}
 ```
 
 ## Notes
