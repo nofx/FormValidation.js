@@ -10,10 +10,10 @@ Javascript form validation made simple, unobtrusive and extensible.
     Your form must have an id and every field you want to validate needs to have a name:
     ```html
     <form id="your-form-id-here" action="registration.php" method="post" enctype="multipart/form-data">
-        <input name="first-name" type="email" >
-        <input name="last-name" type="email" >
+        <input name="first-name" >
+        <input name="last-name" >
         <input name="email" type="email" >
-        <input name="image" type="email" >
+        <input name="image" type="file" >
     </form>
     ```
 
