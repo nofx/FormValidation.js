@@ -3,7 +3,7 @@ FormValidation.js
 
 Javascript form validation made simple, unobtrusive and extensible.
 
-##Getting started
+## Getting started
 
 1. **Setup a form**
 
@@ -90,6 +90,6 @@ validations.new_validation = {
 
 Your callback function is in charge of handling the errors, like for example, showing a message to the user.
 
-##License
+## License
 
 MIT license - [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
